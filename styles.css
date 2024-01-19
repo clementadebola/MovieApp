@@ -1,0 +1,46 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #666;
+}
+
+header {
+    background-color: #1a202c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #3182ce;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: 0.3 ease;
+}
+
+
+#movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
